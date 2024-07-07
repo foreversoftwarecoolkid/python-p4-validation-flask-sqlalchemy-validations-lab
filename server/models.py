@@ -1,7 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import Column, Integer, String, Enum, ForeignKey, UniqueConstraint
+from sqlalchemy import Column, Integer, String, Enum, ForeignKey
 from sqlalchemy.orm import validates
-from sqlalchemy.exc import IntegrityError
 
 db = SQLAlchemy()
 
